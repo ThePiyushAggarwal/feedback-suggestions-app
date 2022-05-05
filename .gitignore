@@ -1,2 +1,4 @@
 backend/requests/
 node_modules/
+.env
+backend/build
