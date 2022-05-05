@@ -1,0 +1,30 @@
+@import './variables/variables.scss';
+
+.card {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  background-color: $darkPrimary;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px auto;
+
+  .rated {
+    flex: 1 0 50px;
+    @include flexcenter;
+    span {
+      display: inline-block;
+      @include flexcenter;
+      height: 40px;
+      width: 40px;
+      border-radius: 10px;
+      background-color: aliceblue;
+      color: black;
+    }
+  }
+
+  .detail {
+    flex: 1 0 200px;
+  }
+}

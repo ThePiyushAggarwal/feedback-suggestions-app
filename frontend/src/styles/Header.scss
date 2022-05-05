@@ -1,0 +1,7 @@
+@import './variables//variables.scss';
+
+.header {
+  @include basicdiv;
+
+  font-size: 30px;
+}

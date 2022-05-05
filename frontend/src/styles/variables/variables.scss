@@ -1,0 +1,27 @@
+// Colors
+$blackColor: rgb(24, 24, 24);
+$whiteColor: rgb(232, 232, 232);
+$darkSecondary: rgb(99, 99, 99);
+$darkPrimary: rgb(67, 67, 67);
+$lightPrimary: white;
+
+// Fonts
+$titleFont: Arial, Helvetica, sans-serif;
+$bodyFont: 'Times New Roman', Times, serif;
+
+// Basic Div
+@mixin basicdiv {
+  background-color: $darkSecondary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $lightPrimary;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+}
+
+@mixin flexcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
